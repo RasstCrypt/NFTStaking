@@ -16,11 +16,11 @@ contract Collection is ERC721Enumerable, Ownable {
     uint256 public maxMintAmount = 5;
     bool public paused = false;
 
-    constructor() ERC721("Net2Dev NFT Collection", "N2D") {}
+    constructor() ERC721("Crypt NFT Collection", "CRY") {}
 
 
     function _baseURI() internal view virtual override returns (string memory) {
-    return "ipfs://QmYB5uWZqfunBq7yWnamTqoXWBAHiQoirNLmuxMzDThHhi/";
+    return "ipfs://QmSXQCaA2wsLfLho6LXbt2tjMSLPnnuxw9QrMiRA5EQCR3/";
 
     }
     
