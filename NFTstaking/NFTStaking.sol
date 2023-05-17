@@ -22,8 +22,8 @@ TERMS SPECIFIED ABOVE.
 
 pragma solidity 0.8.4;
 
-import "https://github.com/net2devcrypto/n2dstaking/N2DRewards.sol";
-import "https://github.com/net2devcrypto/n2dstaking/Collection.sol";
+import "https://github.com/RasstCrypt/NFTStaking/blob/main/NFTstaking/Rewards.sol";
+import "https://github.com/RasstCrypt/NFTStaking/blob/main/NFTstaking/Collection.sol";
 
 contract NFTStaking is Ownable, IERC721Receiver {
 
